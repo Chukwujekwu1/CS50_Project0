@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.search{
+    margin: auto;
+    padding: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  
+}
+
+.search_bar{
+    margin: auto;
+    background-color: red;
+}
+
