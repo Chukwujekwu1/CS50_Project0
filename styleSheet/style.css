@@ -4,15 +4,17 @@
     color: white;
 }
 
-
+body{
+    height: 80dvh;
+    background-color: #212222;
+}
 
 .body {
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100dvh;
-    background-color: #212222;
+    height: 80dvh;
 }
 
 .body>.title {
@@ -99,3 +101,29 @@
     font-size: 1.3rem;
 }
 
+.link_div{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.link_div > div{
+    margin-left: auto;
+    width:fit-content;
+    justify-self: flex-start;
+    margin-right: 3.5rem;
+}
+
+.link_div > div>button>a{
+    text-decoration: none;
+}
+
+.link_div > div>button>a:hover{
+    color: black;
+}
+
+.advanced{
+    margin-left:2rem ;
+}
