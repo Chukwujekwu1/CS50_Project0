@@ -4,6 +4,8 @@
     color: white;
 }
 
+
+
 .body {
     margin: auto;
     display: flex;
@@ -18,11 +20,13 @@
 }
 
 .search {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .search>div {
-    width: 50%;
+    width: 70%;
     margin: auto;
     display: flex;
 }
@@ -57,19 +61,36 @@
     border-top-right-radius: 3rem;
 }
 
-.lucky {
-    align-self: center;
-    width: 8.2rem;
-    padding: 0.7rem;
+.lucky_div{
+    align-items: center;
+    width: 100%;
+}
+.lucky_div > div{
+    margin: auto;
     margin-top: 2rem;
+}
+.lucky {
+    width: fit-content;
+    padding: 0.7rem;
     background-color: #353636;
     border: 0;
     border-radius: 7px;
+    border: solid white;
+    font-weight: 700;
+}
+.lucky:hover{
+    color: black;
+    background-color: white;
+}
+
+.google-btn{
+    margin-right: 1rem;
 }
 
 .logo_div{
     align-self: center;
 }
+
 
 .logo_div > p{
     color: blue;
@@ -77,3 +98,4 @@
     margin-top: -2rem;
     font-size: 1.3rem;
 }
+
