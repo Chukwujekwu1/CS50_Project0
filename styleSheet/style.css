@@ -116,7 +116,7 @@ body{
     margin-right: 3.5rem;
 }
 
-.link_div > div>button>a{
+.link_div > div>a{
     text-decoration: none;
 }
 
@@ -126,4 +126,26 @@ body{
 
 .advanced{
     margin-left:2rem ;
+}
+
+.home_div{
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.home_div > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 3.5rem;
+    margin-top:2rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 10rem;
+    background-color: #353636;
+}
+
+.home_img{
+    height: 1.5rem;
 }
