@@ -66,3 +66,14 @@
     border: 0;
     border-radius: 7px;
 }
+
+.logo_div{
+    align-self: center;
+}
+
+.logo_div > p{
+    color: blue;
+    margin-left: 13.4rem;
+    margin-top: -2rem;
+    font-size: 1.3rem;
+}
